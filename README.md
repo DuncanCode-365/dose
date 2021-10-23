@@ -89,7 +89,7 @@ a:hover {
         
         <div class="image3">
             <div class="suit-contaner">
-                <img src="/suit 3.jpg" alt="suit" srcset="">
+                <img src="suit 3.jpg" alt="suit" srcset="">
             </div>
          </div>
 
