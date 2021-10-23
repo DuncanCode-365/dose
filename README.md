@@ -140,11 +140,11 @@ a:hover {
     </head>
 <body>
     
-    <div class="container">
+     <div class="container">
         
         <div class="image3">
             <div class="suit-contaner">
-                <img src="suit 3.jpg" alt="suit" srcset="">
+                <img src="/suit 3.jpg" alt="suit" srcset="">
             </div>
          </div>
 
@@ -164,6 +164,24 @@ a:hover {
                     <li><a href="Search.html">Search</a></li> 
                 </ul>
 
+            </div>
+        </div>
+
+
+        <div class="sugar">
+            <div class="clock">
+                <div class="hour">
+                    <div class="hr" id="hr"></div>
+                </div>
+        
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+        
+                <div class="sec">
+                    <div class="sc" id="sc"></div>
+                </div>
+        
             </div>
         </div>
 
