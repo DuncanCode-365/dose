@@ -10,15 +10,18 @@
     <script src="Dee.js"></script>
     <style>
         
-    body{
+   html{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+body{
     font-family: 'Gideon Roman', cursive;
     display: flex;
     background-repeat: no-repeat;
     background-image: linear-gradient(65deg,black,#010101   , lightgrey);
-    padding-bottom: 100%;
-    width: 100%;
-    height: 100%;   
-     
+   padding-bottom: 100%;
   
 }
 
@@ -27,12 +30,15 @@
     height: 250px;
     margin: 0px;
     padding: 0px;
+    z-index: 3;
 }
 
 .nav-link {
     position: fixed;
     top: 0px; 
     text-align: left;
+    z-index: 3;
+    left: 0px;
   
 }
 
@@ -42,12 +48,13 @@ ul {
     list-style: none;
     margin: 0px;
     padding-top: 150px ;
+    z-index: 3;
 
 }
 
 a {
     position: relative;
-    color: grey;
+    color: white;
     font-size: 19px;
     text-decoration-line: none;
     padding: auto;;
@@ -76,11 +83,56 @@ a:hover {
 /*suit container-*/
 
 .image3{
-
+    display:inline;
     position: fixed;
     background-repeat: no-repeat;
     right: 0px;
+    z-index: 2;
     background-image: linear-gradient(180deg,black,maroon, grey);
+}
+
+
+/** Drawing analog clock**/ 
+
+
+.sugar {
+    position: absolute;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    padding-top: 5%;
+
+}
+
+.clock {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(clock2.jpg);
+    background-size: cover;
+    border: transparent;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+
+.clock::before {
+    content: '';
+    margin-top: 2px;
+    margin-left: 4px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+
 }
         
     </style>
