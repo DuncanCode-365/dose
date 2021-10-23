@@ -15,7 +15,10 @@
     display: flex;
     background-repeat: no-repeat;
     background-image: linear-gradient(65deg,black,#010101   , lightgrey);
-   padding-bottom: 100%;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 100%;   
+     
   
 }
 
